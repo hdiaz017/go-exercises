@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/GoesToEleven/puppy"
+	"github.com/hdiaz17/sandbox/main/hello"
 )
 
 var number int
@@ -17,4 +18,5 @@ func main() {
 
 	fmt.Println(s1, s2)
 	fmt.Println(number, name)
+	hello.Hello()
 }
